@@ -1,0 +1,101 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  padding: 20px;
+  width: 340px;
+  background: #ffffff;
+  color: #333;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin: 0 0 10px;
+  font-size: 1.3rem;
+  color: #0073b1; /* LinkedIn blue */
+  text-align: center;
+}
+
+h3 {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #333;
+}
+
+label {
+  display: block;
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+#name, #headline {
+  display: inline-block;
+  color: #0073b1;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  transition: border-color 0.2s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #0073b1;
+  background-color: #fff;
+}
+
+textarea {
+  height: 110px;
+  resize: vertical;
+  margin-top: 12px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #005f8d;
+}
+
+#copy {
+  background-color: #555;
+}
+
+#copy:hover {
+  background-color: #333;
+}
+
+#loading {
+  font-style: italic;
+  color: #888;
+  font-size: 0.9rem;
+  margin-top: 8px;
+  text-align: center;
+}
+
+p {
+  margin: 4px 0;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LinkedIn Message Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h2>AI LinkedIn Message</h2>
+
+  <div>
+    <p><strong>Name:</strong> <span id="name">Loading...</span></p>
+    <p><strong>Headline:</strong> <span id="headline">Loading...</span></p>
+  </div>
+
+  <label for="purpose">What do you want to say?</label>
+  <input type="text" id="purpose" placeholder="e.g., Ask about referrals" />
+
+  <button id="generate">Generate Message</button>
+  <p id="loading" style="display:none;">Generating message...</p>
+
+  <h3>Result:</h3>
+  <textarea id="output" readonly placeholder="Your message will appear here..."></textarea>
+  <button id="copy" style="display: none;">Copy</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
