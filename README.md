@@ -22,9 +22,9 @@ Often when we try to message to a recruiter or a senior to ask for help,we gener
 
 ## Folder Structure
 
-1.Manifest.json
-2.popup.html
-3.popup.js
-4.content.js
-5.styles.css
-6.<b>icon.jpg</b>
+1. Manifest.json
+2. popup.html
+3. popup.js
+4. content.js
+5. styles.css
+6. <b>icon.jpg</b>(Have it 128 *128 px size)
