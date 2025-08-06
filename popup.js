@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer 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"
+          "Authorization": `Bearer ${OPENROUTER_API_KEY}`
         },
         body: JSON.stringify({
           model: "mistralai/mistral-7b-instruct",

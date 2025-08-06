@@ -28,3 +28,11 @@ Often when we try to message to a recruiter or a senior to ask for help,we gener
 4. content.js
 5. styles.css
 6. <b>icon.jpg</b>(Have it 128 *128 px size)
+
+## 🔐 Setup API Key
+
+1. Create a new file in the root folder called `config.js`
+2. Add this inside:
+
+```js
+const OPENROUTER_API_KEY = "sk-or-v1-your-api-key";
